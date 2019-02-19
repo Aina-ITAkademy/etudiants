@@ -11,10 +11,10 @@
 </head>
 <body>
     <form method="GET" action="etudiants.php">
-    Prenom : 
-    <input type="text" name="prenom" >
-   
-    <input type="submit" value="Submit">
+        Prenom : 
+        <input type="text" name="prenom" >
+    
+        <input type="submit" value="Submit">
     </form> 
 
     <h1>Liste Etudiants</h1>
@@ -67,7 +67,7 @@
         endforeach;
         } //fin boucle if (isset)
         else {
-            echo "Erreur, requete vide";
+            echo "Liste vide";
         }
     ?>
     </table>
